@@ -1,0 +1,51 @@
+/*фон, цвет текста, высота, отступы */
+body {
+	background: #373737;
+	color: #fff;
+	height: 2000px;
+	margin: 0;
+}
+/*цветсылок и без подчёркивания*/
+a {
+	color: #fff;
+	text-decoration: none;
+}
+/*Шапка*/
+.header {
+	display: flex;
+	height: 60px;
+	align-items: center ;
+	position: fixed;
+	width: 100%;
+	background: rgba(0, 0, 0, 1.0);
+	margin: 0 ;
+}
+/*логотип*/
+.logo {
+	width: 100px;
+	margin-left: 10px;
+}
+/*ссылки в шапке*/
+.nav-item {
+	/*1 по вертикали 2 по горизонтали*/
+	padding: 20px 100px;
+	border: 1px solid #333;
+	margin-top: 0px;
+}
+/*расположение ссылок по центру и вся шапка по верху*/
+nav {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-right: 20px;
+}
+/*отступ текста от шапки*/
+main {
+	padding-top: 60px;
+}
+.rideline {
+	margin-left: 20px;
+}
+.Otsryp {
+	margin-left: 10px;
+}
